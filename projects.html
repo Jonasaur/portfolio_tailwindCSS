@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="flex Column justify-center items-center">      
+    <main class="container mx-auto flex-col justify-evenly">
+        <h1 class="text-4xl text-center font-bold p-10">WELCOME TO MY PORTFOLIO</h1>
+        <div class="flex justify-center gap-10 group">
+            <div class="black text-white flex flex-col rounded-lg shadow-lg min-w-[60vw] max-h-[60vh] overflow-y-scroll" 
+                href="otherWork.html">
+                    <h2 class="text-2xl font-bold p-5">OTHER WORK</h2>
+                    <div class="container p-10">
+                        <div class="flex flex-row gap-5">
+                            <img class="max-w-[25%]" src="assets/img/vfl.png" alt="">
+                            <div class="p-3">
+                                <h3 class="text-2xl">Web developer first year final examn</h3>
+                                <p class="p-2">
+                                    My final examn for the first year of web development. The assignment was to create a website with Vue.js and integrate it with an SQL database.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row-reverse gap-5 p-5">
+                            <img src="assets/img/Cocktail Kitten.jpg" alt="">
+                            <div>
+                                <h3 class="text-2xl">Portfolio Assignment</h3>
+                                <p class="p-2">
+                                    Which CSS-framework suits me best? I have tried to make a portfolio with Bulma, Bootstrap and Tailwind. This is the result.
+                                </p>
+                                <a href="index.html">LINK</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <a class="pillar black text-white text-2xl font-bold flex items-center justify-center rounded-lg shadow-lg min-w-[10vw] max-h-[60vh]" 
+            href="profile.html">PROFILE</a>
+            <a class="pillar black text-white text-2xl font-bold flex items-center justify-center rounded-lg shadow-lg min-w-[10vw] max-h-[60vh]" 
+            href="otherWork.html">OTHER WORK</a>
+        </div>
+    </main>   
+</body>
+</html>
